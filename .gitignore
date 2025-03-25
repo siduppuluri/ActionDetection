@@ -1,1 +1,7 @@
 capstone/
+.ipynb_checkpoints/
+__pycache__/
+Logs/
+MP_Data/
+*.ipynb
+.DS_Store
