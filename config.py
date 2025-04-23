@@ -7,11 +7,15 @@ import numpy as np
 
 # Project paths
 DATA_PATH = os.path.join('MP_Data')  
-MODEL_PATH = 'action.keras'  
+MODEL_PATH = 'action.keras'
 LOG_DIR = os.path.join('Logs')
 
 # Data collection parameters
-actions = np.array(['hello', 'thanks', 'iloveyou', ' '])  
+actions = np.array(['hello', 'thanks', 'iloveyou', 'spc', #Preliminary actions
+                    'help', 'you', 'how',               #Video 2 actions
+                    'where', 'writing', 'center',       #Video 4 actions
+                    'my', 'me', 'here', 'work', 
+                    'nameis', 'student'])
 no_sequences = 30  
 sequence_length = 30  
 camera_index = 0
